@@ -1,32 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context=".MainActivity">
-<TextView
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:text="Wall Paper Changing Application"
-android:textAlignment="center"
-android:textSize="30sp"
-android:textColor="@color/design_default_color_primary"
-/>
-<Button
-android:layout_marginTop="100dp"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:id="@+id/wp"
-android:text="changewallpaper"
-android:textSize="20sp"
-android:onClick="ChangeWallpaper"
-/>
-</LinearLayout>
-
-
-
 MainActivity.java
 
 package com.example.labpgm4;
@@ -121,3 +92,35 @@ e.printStackTrace();
 },30000,5000);
 }
 }
+
+//XML
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".MainActivity">
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Wall Paper Changing Application"
+android:textAlignment="center"
+android:textSize="30sp"
+android:textColor="@color/design_default_color_primary"
+/>
+<Button
+android:layout_marginTop="100dp"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/wp"
+android:text="changewallpaper"
+android:textSize="20sp"
+android:onClick="ChangeWallpaper"
+/>
+</LinearLayout>
+
+
+
